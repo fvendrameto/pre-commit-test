@@ -1,0 +1,2 @@
+class LocalLibClass(object):
+    pass
