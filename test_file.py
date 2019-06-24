@@ -1,6 +1,7 @@
 import re
 
 import bs4
+
 from local_lib import LocalLibClass
 
 global_variable = 10
