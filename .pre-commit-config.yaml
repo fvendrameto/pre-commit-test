@@ -1,13 +1,13 @@
 repos:
--   repo: https://github.com/asottile/seed-isort-config
-    rev: v1.9.1
-    hooks:
-    -   id: seed-isort-config
+- repo: https://github.com/asottile/seed-isort-config
+  rev: v1.9.1
+  hooks:
+  - id: seed-isort-config
 
-repos:
--   repo: git@github.com:sigalei/pre-commit-hooks.git
-    rev: f1291418221c9e7d10f678cb07c44d7d7c3249ad
-    hooks:
-    -   id: isort
-    -   id: yapf
-    -   id: pylint
+- repo: git@github.com:sigalei/pre-commit-hooks.git
+  rev: 2c6c5e016fab9d3e3a9ef346ae9d9d38f7664f3a
+  hooks:
+  - id: isort
+  - id: yapf
+  - id: pylint
+  - id: pytest

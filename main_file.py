@@ -1,11 +1,13 @@
 import re
 
+from bs4 import BeautifulSoup
 from pre_commit_test.local_lib import LocalLibClass
 
 GLOBAL_VARIABLE = 10
 
 
-class TestClass(object):
+# change for tests
+class MainClass(object):
     def __init__(self):
 
         self.first_variable = 1
@@ -20,3 +22,4 @@ class TestClass(object):
         self.fourth_variable = self.local_lib_reference.sum(
             self.first_variable, self.first_variable)
         self.regex = re.compile(r'\d+')
+        self.soup = BeautifulSoup()
