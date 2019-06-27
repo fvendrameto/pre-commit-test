@@ -5,7 +5,7 @@ repos:
   - id: seed-isort-config
 
 - repo: git@github.com:sigalei/pre-commit-hooks.git
-  rev: 2c6c5e016fab9d3e3a9ef346ae9d9d38f7664f3a
+  rev: b347559d232702c231e3725b81e7e9714ebeaa85
   hooks:
   - id: isort
   - id: yapf
