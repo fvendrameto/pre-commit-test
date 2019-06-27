@@ -1,2 +1,4 @@
 class LocalLibClass(object):
-    pass
+    @staticmethod
+    def sum(first, seventh):
+        return first + seventh

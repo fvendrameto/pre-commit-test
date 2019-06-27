@@ -5,7 +5,6 @@ from pre_commit_test.local_lib import LocalLibClass
 GLOBAL_VARIABLE = 10
 
 
-# pylint: disable=too-few-public-methods
 class TestClass(object):
     def __init__(self):
 
@@ -18,4 +17,6 @@ class TestClass(object):
             'line only because it has more than 80 characters')
 
         self.local_lib_reference = LocalLibClass()
+        self.fourth_variable = self.local_lib_reference.sum(
+            self.first_variable, self.first_variable)
         self.regex = re.compile(r'\d+')
