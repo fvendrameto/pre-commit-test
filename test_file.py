@@ -8,6 +8,7 @@ GLOBAL_VARIABLE = 10
 # pylint: disable=too-few-public-methods
 class TestClass(object):
     def __init__(self):
+
         self.first_variable = 1
         self.second_variable = [
             value for value in range(10, 1000, 2) if value % 10 == 3
